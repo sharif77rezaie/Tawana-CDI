@@ -1,0 +1,1664 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Explore Tawana courses, services, instructors, news, certificates, and contact information."
+    >
+    <title>Tawana | Learning Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#home" aria-label="Tawana home">
+          <img class="logo-image" src="assets/images/image.jpg" alt="Tawana">
+        </a>
+
+        <ul class="nav-links">
+          <li><a class="active" href="#home">Home</a></li>
+          <li class="dropdown">
+            <a href="#courses">
+              Courses <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="?category=development#course-development">Web Development</a></li>
+              <li><a href="?category=networking#course-networking">Networking</a></li>
+              <li><a href="?category=design#course-design">Graphic Design</a></li>
+              <li><a href="?category=marketing#course-marketing">Digital Marketing</a></li>
+              <li><a href="?category=security#course-security">Cybersecurity</a></li>
+              <li><a href="?category=office#course-office">Office Tools</a></li>
+              <li><a href="?category=mobile#course-mobile">Mobile Development</a></li>
+            </ul>
+          </li>
+          <li><a href="#services">Services</a></li>
+          <li class="dropdown">
+            <a href="#instructors">
+              Instructors <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#instructors">Our Instructors</a></li>
+              <li><a href="#become-instructor">Become an Instructor</a></li>
+              <li><a href="#instructor-profile">Instructor Profiles</a></li>
+            </ul>
+          </li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a class="icon-btn search-btn" href="#courseSearch" aria-label="Search courses">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </a>
+          <button
+            class="icon-btn theme-btn"
+            type="button"
+            title="Change theme"
+            aria-label="Change theme"
+          >
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+          <a class="login-btn" href="#login">Login</a>
+          <button
+            class="menu-btn"
+            type="button"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="home-section" id="home" aria-labelledby="home-title">
+        <div class="home-video" aria-hidden="true">
+          <video
+            class="background-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+          >
+            <source src="assets/videos/videos.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-overlay" aria-hidden="true"></div>
+
+        <div class="home-content">
+          <span class="home-small-title">WELCOME TO TAWANA</span>
+          <h1 id="home-title">Learn Today, <span>Lead Tomorrow.</span></h1>
+          <p>
+            Build your skills, expand your knowledge, and create a brighter
+            future with Tawana.
+          </p>
+          <div class="home-buttons">
+            <a class="home-btn primary-btn" href="#courses">
+              Explore Courses
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="home-btn secondary-btn" href="#about">Learn More</a>
+          </div>
+        </div>
+
+        <div class="feature-container" role="group" aria-label="Tawana benefits">
+          <a class="feature-card" href="#instructors">
+            <span class="feature-icon teacher-icon" aria-hidden="true">
+              <i class="fa-solid fa-users"></i>
+            </span>
+            <h2>Expert Teachers</h2>
+            <p>Learn from expert instructors with professional experience.</p>
+          </a>
+          <a class="feature-card" href="#contact">
+            <span class="feature-icon communication-icon" aria-hidden="true">
+              <i class="fa-regular fa-paper-plane"></i>
+            </span>
+            <h2>Easy Communication</h2>
+            <p>Get in touch with our team about courses and learning.</p>
+          </a>
+          <a class="feature-card" href="#certificate">
+            <span class="feature-icon certificate-icon" aria-hidden="true">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            <h2>Get Certificates</h2>
+            <p>Learn about course completion certificates at Tawana.</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- =========================================== Section Courses ================================= -->
+
+      <section class="courses-section" id="courses" aria-labelledby="courses-title">
+        <div class="background-circle circle-one" aria-hidden="true"></div>
+        <div class="background-circle circle-two" aria-hidden="true"></div>
+        <header class="section-header">
+          <p class="section-label">Our Courses</p>
+          <h2 id="courses-title">Popular <span>Courses</span></h2>
+          <p>
+            Explore our courses and build practical skills for a brighter
+            future. Choose a subject and start learning.
+          </p>
+        </header>
+
+        <label class="course-search-inline" for="courseSearch">
+          <span class="visually-hidden">Searching</span>
+          <input
+            id="courseSearch"
+            type="search"
+            placeholder="Search courses..."
+            autocomplete="off"
+          >
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </label>
+
+        <div class="course-filters" role="group" aria-label="Filter courses">
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All Courses</button>
+          <button class="filter-btn" type="button" data-filter="development" aria-pressed="false">Development</button>
+          <button class="filter-btn" type="button" data-filter="networking" aria-pressed="false">Networking</button>
+          <button class="filter-btn" type="button" data-filter="design" aria-pressed="false">Design</button>
+          <button class="filter-btn" type="button" data-filter="marketing" aria-pressed="false">Marketing</button>
+          <button class="filter-btn" type="button" data-filter="security" aria-pressed="false">Security</button>
+          <button class="filter-btn" type="button" data-filter="office" aria-pressed="false">Office Tools</button>
+          <button class="filter-btn" type="button" data-filter="mobile" aria-pressed="false">Mobile</button>
+        </div>
+
+        <div class="courses-grid" id="coursesGrid">
+          <article class="course-card" id="course-security" data-category="security" data-name="Cybersecurity">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1866687592691148.png" alt="Cybersecurity course" loading="lazy">
+              <span class="course-category">Security</span>
+            </div>
+            <div class="course-content">
+              <h2>Cybersecurity</h2>
+              <p>Learn how to protect systems, networks, and data from cyber threats and attacks.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 8 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Beginner</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-development" data-category="development" data-name="Full Stack Development">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1866687885370158.png" alt="Full stack development course" loading="lazy">
+              <span class="course-category">Development</span>
+            </div>
+            <div class="course-content">
+              <h2>Full Stack Development</h2>
+              <p>Master front-end and back-end development and build complete web applications.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 12 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> All Levels</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-networking" data-category="networking" data-name="Networking">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1866687732531209.png" alt="Networking course" loading="lazy">
+              <span class="course-category">Networking</span>
+            </div>
+            <div class="course-content">
+              <h2>Networking</h2>
+              <p>Learn computer networks, protocols, IP addressing, and configuration from scratch.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 8 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Beginner</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-marketing" data-category="marketing" data-name="Digital Marketing">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881332838364.png" alt="Digital marketing course" loading="lazy">
+              <span class="course-category">Marketing</span>
+            </div>
+            <div class="course-content">
+              <h2>Digital Marketing</h2>
+              <p>Learn SEO, social media, content marketing, and online strategies to grow your brand.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 6 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Beginner</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="development" data-name="Programming">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881366193530.png" alt="Programming course" loading="lazy">
+              <span class="course-category">Development</span>
+            </div>
+            <div class="course-content">
+              <h2>Programming</h2>
+              <p>Build a strong foundation in programming logic and problem-solving.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 10 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> All Levels</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-design" data-category="design" data-name="Graphic Design">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881385616661.png" alt="Graphic design course" loading="lazy">
+              <span class="course-category">Design</span>
+            </div>
+            <div class="course-content">
+              <h2>Graphic Design</h2>
+              <p>Learn design principles and tools, and create amazing visual content.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 6 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Beginner</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-office" data-category="office" data-name="ICDL">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881441037119.png" alt="ICDL course" loading="lazy">
+              <span class="course-category">Office Tools</span>
+            </div>
+            <div class="course-content">
+              <h2>ICDL</h2>
+              <p>Gain computer skills and improve your office productivity.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 8 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Beginner</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" data-category="security" data-name="Firewalls Network Security">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881441037119.png" alt="Firewall and network security course" loading="lazy">
+              <span class="course-category">Security</span>
+            </div>
+            <div class="course-content">
+              <h2>Firewalls &amp; Network Security</h2>
+              <p>Learn to configure firewalls, secure networks, and protect systems.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 8 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> Intermediate</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="course-card" id="course-mobile" data-category="mobile" data-name="Android">
+            <div class="course-image">
+              <img src="https://tawanatechnology.com/uploadcompres/category/1860881455150346.png" alt="Android development course" loading="lazy">
+              <span class="course-category">Mobile</span>
+            </div>
+            <div class="course-content">
+              <h2>Android</h2>
+              <p>Build Android apps and learn mobile app development from scratch.</p>
+              <div class="course-info">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 10 Weeks</span>
+                <span><i class="fa-regular fa-user" aria-hidden="true"></i> All Levels</span>
+              </div>
+              <a class="learn-btn" href="#contact">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <aside class="promotion-card">
+            <p class="promotion-logo"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Tawana</p>
+            <h2>Your Future Starts Here!</h2>
+            <p>Join Tawana and unlock your potential with the right skills.</p>
+            <a class="promotion-btn" href="#contact">Explore All Courses <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <span class="promotion-decoration" aria-hidden="true"><i class="fa-solid fa-book-open"></i></span>
+          </aside>
+        </div>
+        <p class="course-no-results" id="courseNoResults" role="status" hidden>
+          No courses match your search.
+        </p>
+        <p class="bottom-text">
+          <span aria-hidden="true"></span>
+          Learn <b aria-hidden="true">·</b> Grow <b aria-hidden="true">·</b> Succeed
+          <span aria-hidden="true"></span>
+        </p>
+      </section>
+<!-- =========================================== Section Services ================================= -->
+
+<section class="services-section" id="services" aria-labelledby="services-title">
+    <!-- Section Header -->
+    <header class="services-header">
+        <p class="services-label">
+            WHAT WE OFFER
+        </p>
+        <h2 id="services-title">
+            Our <span>Services</span>
+        </h2>
+        <p class="services-description">
+            Learning support and practical guidance to help
+            students progress and achieve their goals.
+        </p>
+    </header>
+    <!-- Services Cards -->
+    <div class="services-grid">
+
+        <!-- ================= CARD 1 ================= -->
+
+        <article class="service-card">
+            <div class="service-icon icon-green">
+                <i class="fa-solid fa-laptop-code"
+                   aria-hidden="true">
+                </i>
+            </div>
+            <div class="service-content">
+                <span class="service-number">
+                    01
+                </span>
+                <h3>
+                    Practical Courses
+                </h3>
+                <p>
+                    Build skills through structured lessons
+                    and practical exercises.
+                </p>
+                <a href="#courses" class="service-link">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+        <!-- ================= CARD 2 ================= -->
+        <article class="service-card">
+            <div class="service-icon icon-blue">
+                <i class="fa-solid fa-user-group"
+                   aria-hidden="true">
+                </i>
+            </div>
+            <div class="service-content">
+                <span class="service-number">
+                    02
+                </span>
+                <h3>
+                    Instructor Guidance
+                </h3>
+                <p>
+                    Learn with support from instructors
+                    throughout your course.
+                </p>
+                <a href="#instructors" class="service-link">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+        <!-- ================= CARD 3 ================= -->
+        <article class="service-card">
+            <div class="service-icon icon-orange">
+                <i class="fa-solid fa-award"
+                   aria-hidden="true">
+                </i>
+            </div>
+            <div class="service-content">
+                <span class="service-number">
+                    03
+                </span>
+                <h3>
+                    Learning Recognition
+                </h3>
+                <p>
+                    Find out about completion requirements
+                    and certificates.
+                </p>
+                <a href="#certificate" class="service-link">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+    </div>
+</section>
+      <!-- =========================================== Section Instructors ================================= -->
+
+<section
+    class="instructors-section"
+    id="instructors"
+    aria-labelledby="instructors-title">
+    <header class="instructors-header">
+        <p class="instructors-label">MEET THE TEAM</p>
+        <h2 id="instructors-title">Our <span>Instructors</span></h2>
+        <p class="instructors-description">
+            Meet our instructors and explore the fields they teach at Tawana.
+        </p>
+    </header>
+
+    <div class="instructors-grid" id="instructor-profile">
+        <article class="instructor-card">
+            <div>
+              <img
+                class="instructor-image instructor-image-development" width="365" height="500" 
+                src="https://tawanatechnology.com/upload/teacher/1829266566010019.jpg"
+                alt="Development instructor"
+            />
+            </div>
+            <div class="instructor-content">
+                <span class="instructor-number" aria-hidden="true">01</span>
+                <span class="instructor-specialty">
+                    <i class="fa-solid fa-code" aria-hidden="true"></i>
+                    Development
+                </span>
+                <h3>Development Instructor</h3>
+                <p>Web development and programming instructor.</p>
+                <a class="instructor-link" href="#course-development">
+                    View Courses
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+
+        <article class="instructor-card">
+            <div>
+                <img
+                    class="instructor-image instructor-image-networking" width="365" height="500" 
+                    src="https://tawanatechnology.com/upload/teacher/1826579777034113.jpg"
+                    alt="Networking instructor"
+                />
+            </div>
+            <div class="instructor-content">
+                <span class="instructor-number" aria-hidden="true">02</span>
+                <span class="instructor-specialty">
+                    <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                    Networking
+                </span>
+                <h3>Networking Instructor</h3>
+                <p>Networking and cybersecurity instructor.</p>
+                <a class="instructor-link" href="#course-networking">
+                    View Courses
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+
+        <article class="instructor-card">
+            <div>
+                <img
+                    class="instructor-image instructor-image-design" width="365" height="500" 
+                    src="https://tawanatechnology.com/upload/teacher/1826580047081543.jpg"
+                    alt="Design instructor"
+                />
+            </div>
+            <div class="instructor-content">
+                <span class="instructor-number" aria-hidden="true">03</span>
+                <span class="instructor-specialty">
+                    <i class="fa-solid fa-pen-nib" aria-hidden="true"></i>
+                    Design
+                </span>
+                <h3>Design Instructor</h3>
+                <p>Graphic design and digital media instructor.</p>
+                <a class="instructor-link" href="#course-design">
+                    View Courses
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </article>
+    </div>
+
+    <div class="instructor-callout" id="become-instructor">
+        <span class="callout-icon" aria-hidden="true">
+            <i class="fa-solid fa-chalkboard-user"></i>
+        </span>
+        <div class="callout-content">
+            <span>JOIN OUR TEAM</span>
+            <h3>Become an Instructor</h3>
+            <p>Interested in teaching at Tawana? Contact us to discuss opportunities.</p>
+        </div>
+        <a class="callout-button" href="#contact">
+            Contact Us
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+    </div>
+</section>
+<!-- ==================================================== News Section ======================================== -->
+      <section class="news-section" id="news" aria-labelledby="news-title">
+        <span class="news-decoration news-decoration-left" aria-hidden="true"></span>
+        <span class="news-decoration news-decoration-right" aria-hidden="true"></span>
+        <header class="news-header">
+          <p class="news-label">LATEST UPDATES</p>
+          <h2 id="news-title">News &amp; <span>Updates</span></h2>
+          <p class="news-description">
+            Updates about courses, learning opportunities, and the Tawana community.
+          </p>
+        </header>
+        <div class="news-grid">
+          <article class="news-card">
+            <img class="" src="https://tawanatechnology.com/uploadcompres/category/1866687592691148.png" alt="New course enrolment" loading="lazy">
+            <div class="news-content">
+              <span class="news-number" aria-hidden="true">01</span>
+              <h3>New Course Enrolment</h3>
+              <p>Visit the courses section to explore available subjects and course details.</p>
+              <div class="news-bottom">
+                <a class="news-link" href="#courses">
+                  Browse courses <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+                <time class="news-date" datetime="2025-04-25">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Apr 25, 2025
+                </time>
+              </div>
+            </div>
+          </article>
+          <article class="news-card">
+            <img class="" src="https://tawanatechnology.com/uploadcompres/category/1866687592691148.png" alt="New course enrolment" loading="lazy">
+            
+            <div class="news-content">
+              <span class="news-number" aria-hidden="true">02</span>
+              <h3>Learning at Tawana</h3>
+              <p>Contact our team for current class schedules and enrolment information.</p>
+              <div class="news-bottom">
+                <a class="news-link" href="#contact">
+                  Get in touch <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+                <time class="news-date" datetime="2025-04-18">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Apr 18, 2025
+                </time>
+              </div>
+            </div>
+          </article>
+          <article class="news-card">
+            <img class="" src="https://tawanatechnology.com/uploadcompres/category/1866687592691148.png" alt="New course enrolment" loading="lazy">
+
+            <div class="news-content">
+              <span class="news-number" aria-hidden="true">03</span>
+              <h3>Join Our Community</h3>
+              <p>Connect with Tawana to learn about upcoming learning opportunities.</p>
+              <div class="news-bottom">
+                <a class="news-link" href="#contact">
+                  Contact Tawana <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+                <time class="news-date" datetime="2025-04-10">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Apr 10, 2025
+                </time>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="news-footer" aria-label="Learn, grow, succeed">
+          <span aria-hidden="true"></span>
+          <p>Learn <b aria-hidden="true">·</b> Grow <b aria-hidden="true">·</b> Succeed</p>
+          <span aria-hidden="true"></span>
+        </div>
+      </section>
+      <!-- =========================================== Section Certificates ================================= -->
+<section
+    class="certificates-section"
+    id="certificate"
+    aria-labelledby="certificate-title">
+    <!-- Background Decorations -->
+    <div class="certificate-decoration decoration-one"></div>
+    <div class="certificate-decoration decoration-two"></div>
+    <!-- =================================================
+         SECTION HEADER
+    ================================================== -->
+    <header class="certificates-header">
+        <p class="certificates-label">
+            CELEBRATE YOUR PROGRESS
+        </p>
+        <h2 id="certificate-title">
+            Course <span>Certificates</span>
+        </h2>
+        <p class="certificates-description">
+            Recognize your learning achievements and
+            showcase the skills you have gained at Tawana.
+        </p>
+    </header>
+    <!-- =================================================
+         CERTIFICATE GRID
+    ================================================== -->
+    <div class="certificates-grid">
+        <!-- =================================================
+             CERTIFICATE 01
+        ================================================== -->
+        <article
+            class="certificate-card"
+            data-certificate="TAWANA-FSD-001">
+            <!-- Certificate Image -->
+            <div class="certificate-image">
+                <img
+                    src="assets/images/certificates/certificate-1.svg"
+                    alt="Sample Full Stack Development certificate">
+                <!-- Overlay -->
+                <div class="certificate-overlay">
+                    <button
+                        class="certificate-view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-1.svg"
+                        data-title="Full Stack Development Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View Certificate
+                    </button>
+                </div>
+                <!-- Certificate Badge -->
+                <span class="certificate-badge">
+                    <i class="fa-solid fa-certificate"></i>
+                    Sample
+                </span>
+            </div>
+            <!-- Certificate Content -->
+            <div class="certificate-content">
+                <div class="certificate-top">
+                    <span class="certificate-category">
+                        Development
+                    </span>
+                    <span class="certificate-id">
+                        #001
+                    </span>
+                </div>
+                <h3>
+                    Full Stack Development
+                </h3>
+                <p>
+                    Certificate of successful completion
+                    of Full Stack Development course.
+                </p>
+                <!-- Information -->
+                <div class="certificate-info">
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        2026
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        12 Weeks
+                    </span>
+                </div>
+                <!-- Buttons -->
+                <div class="certificate-actions">
+                    <button
+                        class="certificate-btn view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-1.svg"
+                        data-title="Full Stack Development Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View
+                    </button>
+                    <button
+                        class="certificate-btn verify-btn"
+                        type="button"
+                        data-id="TAWANA-FSD-001">
+                        <i class="fa-solid fa-shield-check"></i>
+                        Verify
+                    </button>
+                </div>
+            </div>
+        </article>
+        <!-- =================================================
+             CERTIFICATE 02
+        ================================================== -->
+        <article
+            class="certificate-card"
+            data-certificate="TAWANA-NET-002">
+            <div class="certificate-image">
+                <img
+                    src="assets/images/certificates/certificate-2.svg"
+                    alt="Sample Networking certificate">
+                <div class="certificate-overlay">
+                    <button
+                        class="certificate-view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-2.svg"
+                        data-title="Networking Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View Certificate
+                    </button>
+                </div>
+                <span class="certificate-badge">
+                    <i class="fa-solid fa-certificate"></i>
+                    Sample
+                </span>
+            </div>
+            <div class="certificate-content">
+                <div class="certificate-top">
+                    <span class="certificate-category">
+                        Networking
+                    </span>
+                    <span class="certificate-id">
+                        #002
+                    </span>
+                </div>
+                <h3>
+                    Networking
+                </h3>
+                <p>
+                    Certificate of successful completion
+                    of Networking course.
+                </p>
+                <div class="certificate-info">
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        2026
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        8 Weeks
+                    </span>
+                </div>
+                <div class="certificate-actions">
+                    <button
+                        class="certificate-btn view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-2.svg"
+                        data-title="Networking Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View
+                    </button>
+                    <button
+                        class="certificate-btn verify-btn"
+                        type="button"
+                        data-id="TAWANA-NET-002">
+                        <i class="fa-solid fa-shield-check"></i>
+                        Verify
+                    </button>
+                </div>
+            </div>
+        </article>
+        <!-- =================================================
+             CERTIFICATE 03
+        ================================================== -->
+        <article
+            class="certificate-card"
+            data-certificate="TAWANA-DES-003">
+            <div class="certificate-image">
+                <img
+                    src="assets/images/certificates/certificate-3.svg"
+                    alt="Sample Graphic Design certificate">
+                <div class="certificate-overlay">
+                    <button
+                        class="certificate-view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-3.svg"
+                        data-title="Graphic Design Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View Certificate
+                    </button>
+                </div>
+                <span class="certificate-badge">
+                    <i class="fa-solid fa-certificate"></i>
+                    Sample
+                </span>
+            </div>
+            <div class="certificate-content">
+                <div class="certificate-top">
+                    <span class="certificate-category">
+                        Design
+                    </span>
+                    <span class="certificate-id">
+                        #003
+                    </span>
+                </div>
+                <h3>
+                    Graphic Design
+                </h3>
+                <p>
+                    Certificate of successful completion
+                    of Graphic Design course.
+                </p>
+                <div class="certificate-info">
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        2026
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-clock"></i>
+                        6 Weeks
+                    </span>
+                </div>
+                <div class="certificate-actions">
+                    <button
+                        class="certificate-btn view-btn"
+                        type="button"
+                        data-image="assets/images/certificates/certificate-3.svg"
+                        data-title="Graphic Design Certificate">
+                        <i class="fa-solid fa-eye"></i>
+                        View
+                    </button>
+                    <button
+                        class="certificate-btn verify-btn"
+                        type="button"
+                        data-id="TAWANA-DES-003">
+                        <i class="fa-solid fa-shield-check"></i>
+                        Verify
+                    </button>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!-- =================================================
+         BOTTOM CALL TO ACTION
+    ================================================== -->
+    <div class="certificate-callout">
+        <div class="callout-certificate-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="callout-text">
+            <span>
+                YOUR ACHIEVEMENT MATTERS
+            </span>
+            <h3>
+                Ready to earn your certificate?
+            </h3>
+            <p>
+                Complete your course and showcase
+                your achievement with a Tawana certificate.
+            </p>
+        </div>
+        <a
+            href="#courses"
+            class="certificate-callout-btn">
+            Explore Courses
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+<!-- =====================================================
+     CERTIFICATE VIEW MODAL
+===================================================== -->
+<div
+    class="certificate-modal"
+    id="certificateModal"
+    aria-hidden="true">
+    <div class="certificate-modal-overlay"></div>
+    <div
+        class="certificate-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalCertificateTitle">
+        <button
+            class="certificate-modal-close"
+            id="certificateModalClose"
+            type="button"
+            aria-label="Close certificate">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal-image-wrapper">
+            <img
+                id="modalCertificateImage"
+                src=""
+                alt="Certificate preview">
+        </div>
+        <div class="modal-certificate-title">
+            <i class="fa-solid fa-certificate"></i>
+            <span id="modalCertificateTitle">
+                Certificate
+            </span>
+        </div>
+    </div>
+  </div>
+<!-- =====================================================
+     VERIFY MODAL
+===================================================== -->
+<div
+    class="verify-modal"
+    id="verifyModal"
+    aria-hidden="true">
+    <div class="verify-modal-overlay"></div>
+    <div
+        class="verify-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="verifyModalTitle">
+        <button
+            class="verify-modal-close"
+            id="verifyModalClose"
+            type="button"
+            aria-label="Close verification">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="verify-success-icon">
+            <i class="fa-solid fa-shield-check"></i>
+        </div>
+        <h3 id="verifyModalTitle">Demo certificate check</h3>
+        <p>
+            This sample is not connected to an official certificate registry.
+            Connect verification to Tawana's records before using it for real certificates.
+        </p>
+        <div class="verification-details">
+            <span>
+                Certificate ID
+            </span>
+            <strong id="verifiedCertificateId">
+                TAWANA-000
+            </strong>
+        </div>
+        <div class="verification-status">
+            <i class="fa-solid fa-circle-info"></i>
+            Demo only — not an official verification
+        </div>
+    </div>
+  </div>
+      <!-- =========================================== Section About ================================= -->
+<section class="about-tawana" id="about" aria-labelledby="about-title">
+    <!-- Decorative Background -->
+    <div class="about-decoration about-decoration-one"></div>
+    <div class="about-decoration about-decoration-two"></div>
+    <!-- =================================================
+         SECTION HEADER
+    ================================================== -->
+    <header class="about-header">
+        <p class="about-label">
+            ABOUT TAWANA
+        </p>
+        <h2 id="about-title">
+            Learn with <span>Purpose</span>
+        </h2>
+        <p class="about-header-text">
+            Tawana is an educational platform dedicated to helping
+            learners build practical knowledge, digital skills,
+            and confidence for a better future.
+        </p>
+    </header>
+    <!-- =================================================
+         MAIN ABOUT CONTENT
+    ================================================== -->
+    <div class="about-container">
+        <!-- LEFT: IMAGE -->
+        <div class="about-image-box">
+            <div class="about-image-wrapper">
+                <img
+                    src="assets/images/about-learning.svg"
+                    alt="Tawana educational learning environment"
+                >
+                <!-- Experience Badge -->
+                <div class="about-experience">
+                    <span class="experience-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </span>
+                    <div>
+                        <strong>Learn</strong>
+                        <small>Grow &amp; Succeed</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- RIGHT: CONTENT -->
+        <div class="about-content">
+            <span class="about-small-title">
+                WHO WE ARE
+            </span>
+            <h3>
+                Empowering Learners
+                <span>Through Education</span>
+            </h3>
+            <p class="about-description">
+                Tawana is a modern learning platform that provides
+                educational opportunities in technology, design,
+                business, and digital skills.
+            </p>
+            <p class="about-description">
+                Our goal is to make learning practical, accessible,
+                and meaningful. We help learners develop the skills
+                they need to continue their education and prepare
+                for future opportunities.
+            </p>
+            <!-- =================================================
+                 MISSION & VISION
+            ================================================== -->
+            <div class="mission-vision">
+                <!-- Mission -->
+                <article class="mission-card">
+                    <div class="mv-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="mv-content">
+                        <h4>
+                            Our Mission
+                        </h4>
+                        <p>
+                            To provide quality and practical education
+                            that helps learners develop valuable skills.
+                        </p>
+                    </div>
+                </article>
+                <!-- Vision -->
+                <article class="vision-card">
+                    <div class="mv-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="mv-content">
+                        <h4>
+                            Our Vision
+                        </h4>
+                        <p>
+                            To build a future where everyone can access
+                            useful knowledge and digital education.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <!-- Explore Button -->
+            <a
+                href="#courses"
+                class="about-btn">
+                Explore Courses
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- =================================================
+         FEATURES
+    ================================================== -->
+    <div class="about-features">
+        <!-- Feature 01 -->
+        <article class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="feature-content">
+                <h4>
+                    Quality Education
+                </h4>
+                <p>
+                    Learn through structured and high-quality
+                    educational content.
+                </p>
+            </div>
+        </article>
+        <!-- Feature 02 -->
+        <article class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="feature-content">
+                <h4>
+                    Practical Learning
+                </h4>
+                <p>
+                    Develop real-world skills through practical
+                    lessons and exercises.
+                </p>
+            </div>
+        </article>
+        <!-- Feature 03 -->
+        <article class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="feature-content">
+                <h4>
+                    Digital Skills
+                </h4>
+                <p>
+                    Build modern digital and technology skills
+                    for your future career.
+                </p>
+            </div>
+        </article>
+        <!-- Feature 04 -->
+        <article class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="feature-content">
+                <h4>
+                    Accessible Education
+                </h4>
+                <p>
+                    Make learning opportunities easier to access
+                    for everyone.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+      <!-- =========================================== Section Contact ================================= -->
+     <main>
+        <section class="contact-section"
+                 id="contact"
+                 aria-labelledby="contact-title">
+            <div class="contact-decoration contact-decoration-one"></div>
+            <div class="contact-decoration contact-decoration-two"></div>
+            <header class="contact-header">
+                <span class="contact-label">
+                    CONTACT US
+                </span>
+                <h1 id="contact-title">
+                    Get in Touch with <span>Tawana</span>
+                </h1>
+                <p>
+                    Have questions about our courses or learning programs?
+                    We are here to help you take the next step in your
+                    educational journey.
+                </p>
+            </header>
+            <!-- =====================================
+                 CONTACT INFORMATION CARDS
+            ====================================== -->
+            <div class="contact-info-grid">
+                <!-- Email -->
+                <article class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fa-regular fa-envelope"
+                           aria-hidden="true"></i>
+                    </div>
+                    <h2>Email Address</h2>
+                    <p>
+                        Questions about courses or registration?
+                    </p>
+                    <!-- Replace with the official email -->
+                    <span class="contact-detail">
+                        Official email to be added
+                    </span>
+                </article>
+                <!-- Phone -->
+                <article class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-phone"
+                           aria-hidden="true"></i>
+                    </div>
+                    <h2>Phone Number</h2>
+                    <p>
+                        Speak with our support team.
+                    </p>
+                    <!-- Replace with the official phone number -->
+                    <span class="contact-detail">
+                        Official phone to be added
+                    </span>
+                </article>
+                <!-- Office Address -->
+                <article class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+                    </div>
+                    <h2>Office Address</h2>
+                    <p>
+                        Find our official learning center.
+                    </p>
+                    <!-- Replace with the real office address -->
+                    <span class="contact-detail">
+                        Official address to be added
+                    </span>
+                </article>
+                <!-- Working Hours -->
+                <article class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fa-regular fa-clock"
+                           aria-hidden="true"></i>
+                    </div>
+                    <h2>Working Hours</h2>
+                    <p>
+                        We are ready to assist you.
+                    </p>
+                    <!-- Add confirmed days and hours -->
+                    <span class="contact-detail">
+                        Official schedule to be added
+                    </span>
+                </article>
+            </div>
+            <!-- =====================================
+                 CONTACT FORM + SIDE PANEL
+            ====================================== -->
+            <div class="contact-main-grid">
+                <!-- CONTACT FORM -->
+                <section class="contact-form-card"
+                         aria-labelledby="contact-form-title">
+                    <div class="contact-form-heading">
+                        <span class="contact-form-icon">
+                            <i class="fa-regular fa-paper-plane"
+                               aria-hidden="true"></i>
+                        </span>
+                        <div>
+                            <h2 id="contact-form-title">
+                                Send Us a Message
+                            </h2>
+                            <p>
+                                Fill out the form below and tell us
+                                how we can help.
+                            </p>
+                        </div>
+                    </div>
+                    <form id="contactForm">
+                        <!-- Full Name -->
+                        <div class="form-group">
+                            <label for="fullName">
+                                Full Name <span>*</span>
+                            </label>
+                            <input
+                                type="text"
+                                id="fullName"
+                                name="fullName"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                                minlength="2"
+                                maxlength="100"
+                                required>
+                        </div>
+                        <!-- Email + Phone -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address <span>*</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    maxlength="254"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">
+                                    Phone Number
+                                    <span class="optional">(Optional)</span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="Your phone number"
+                                    autocomplete="tel"
+                                    maxlength="30">
+                            </div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject <span>*</span>
+                            </label>
+                            <select
+                                id="subject"
+                                name="subject"
+                                required>
+                                <option value="" selected disabled>
+                                    Select a subject
+                                </option>
+                                <option value="courses">
+                                    Course Information
+                                </option>
+                                <option value="registration">
+                                    Registration and Enrolment
+                                </option>
+                                <option value="certificates">
+                                    Certificates
+                                </option>
+                                <option value="instructors">
+                                    Instructor Opportunities
+                                </option>
+                                <option value="technical">
+                                    Technical Support
+                                </option>
+                                <option value="other">
+                                    Other Questions
+                                </option>
+                            </select>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label for="message">
+                                Your Message <span>*</span>
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                minlength="10"
+                                maxlength="3000"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                            <div class="message-footer">
+                                <small>Minimum 10 characters</small>
+                                <small id="characterCount"
+                                       aria-live="polite">
+                                    0 / 3000
+                                </small>
+                            </div>
+                        </div>
+                        <!-- Consent -->
+                        <div class="contact-consent">
+                            <input
+                                type="checkbox"
+                                id="consent"
+                                name="consent"
+                                required>
+                            <label for="consent">
+                                I agree that Tawana may use the
+                                information I provide to respond
+                                to my enquiry.
+                            </label>
+                        </div>
+                        <!-- Submit -->
+                        <button
+                            type="submit"
+                            class="contact-submit-btn">
+                            <span>Send Message</span>
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </button>
+                        <!-- Accessible status message -->
+                        <p
+                            id="formStatus"
+                            class="form-status"
+                            role="status"
+                            aria-live="polite"
+                            tabindex="-1">
+                        </p>
+                    </form>
+                </section>
+                <!-- RIGHT SIDE PANEL -->
+                <aside class="contact-side-panel">
+                    <div class="contact-side-decoration"></div>
+                    <span class="side-panel-label">
+                        WE ARE HERE TO HELP
+                    </span>
+                    <div class="side-panel-icon">
+                        <i class="fa-solid fa-headset"
+                           aria-hidden="true"></i>
+                    </div>
+                    <h2>
+                        How Can We Help You?
+                    </h2>
+                    <p>
+                        Whether you need course details, registration
+                        guidance, or technical support, we want to
+                        make your learning journey easier.
+                    </p>
+                    <ul class="contact-benefits">
+                        <li>
+                            <i class="fa-solid fa-circle-check"
+                               aria-hidden="true"></i>
+                            Course and programme information
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"
+                               aria-hidden="true"></i>
+                            Registration guidance
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"
+                               aria-hidden="true"></i>
+                            Certificate enquiries
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check"
+                               aria-hidden="true"></i>
+                            Technical assistance
+                        </li>
+                    </ul>
+                    <div class="contact-side-divider"></div>
+                    <h3>Follow Tawana</h3>
+                    <p class="social-description">
+                        Add your official social media accounts below.
+                    </p>
+                    <!-- Replace # with official account URLs -->
+                    <div class="contact-socials">
+                        <a href="#"
+                           class="social-link"
+                           aria-label="Tawana Facebook"
+                           title="Add official Facebook URL">
+                            <i class="fa-brands fa-facebook-f"
+                               aria-hidden="true"></i>
+                        </a>
+                        <a href="#"
+                           class="social-link"
+                           aria-label="Tawana LinkedIn"
+                           title="Add official LinkedIn URL">
+                            <i class="fa-brands fa-linkedin-in"
+                               aria-hidden="true"></i>
+                        </a>
+                        <a href="#"
+                           class="social-link"
+                           aria-label="Tawana Instagram"
+                           title="Add official Instagram URL">
+                            <i class="fa-brands fa-instagram"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- =====================================
+                 FREQUENTLY ASKED QUESTIONS
+            ====================================== -->
+            <section class="contact-faq"
+                     aria-labelledby="contact-faq-title">
+                <header class="faq-header">
+                    <span class="contact-label">
+                        QUICK ANSWERS
+                    </span>
+                    <h2 id="contact-faq-title">
+                        Frequently Asked <span>Questions</span>
+                    </h2>
+                    <p>
+                        Find answers to common questions about learning
+                        with Tawana.
+                    </p>
+                </header>
+                <div class="faq-grid">
+                    <details class="faq-item">
+                        <summary>
+                            How can I explore available courses?
+                            <i class="fa-solid fa-chevron-down"
+                               aria-hidden="true"></i>
+                        </summary>
+                        <p>
+                            Visit the Courses section to explore
+                            available subjects and course information.
+                            Contact Tawana if you need further guidance.
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            How do I register for a course?
+                            <i class="fa-solid fa-chevron-down"
+                               aria-hidden="true"></i>
+                        </summary>
+                        <p>
+                            Contact the Tawana team to ask about
+                            registration steps, enrolment availability,
+                            and course requirements.
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            How can I ask about a certificate?
+                            <i class="fa-solid fa-chevron-down"
+                               aria-hidden="true"></i>
+                        </summary>
+                        <p>
+                            Contact Tawana with your course details
+                            to learn about the applicable completion
+                            requirements and certificate eligibility.
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>
+                            What if I have a technical problem?
+                            <i class="fa-solid fa-chevron-down"
+                               aria-hidden="true"></i>
+                        </summary>
+                        <p>
+                            Select Technical Support in the contact
+                            form and describe the issue you are
+                            experiencing.
+                        </p>
+                    </details>
+                </div>
+            </section>
+            <!-- =====================================
+                 FINAL CALL TO ACTION
+            ====================================== -->
+            <div class="contact-cta">
+                <div class="cta-icon">
+                    <i class="fa-solid fa-graduation-cap"
+                       aria-hidden="true"></i>
+                </div>
+                <div class="cta-content">
+                    <h2>
+                        Ready to Start Your Learning Journey?
+                    </h2>
+                    <p>
+                        Explore Tawana courses and take your next step.
+                    </p>
+                </div>
+                <a href="index.html#courses"
+                   class="contact-cta-btn">
+                    Explore Courses
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>  
+                </a>
+            </div>
+        </section>
+    </main>
+
+    
+<!-- =========================================
+     TAWANA PREMIUM FOOTER
+     Replace only the existing footer.
+========================================== -->
+<footer class="site-footer" id="site-footer">
+  <div class="footer-container">
+
+    <!-- Column 1: Brand introduction -->
+    <div class="footer-brand">
+      <a class="footer-logo" href="#home" aria-label="Tawana home">
+        <!-- Replace with your real logo image if available -->
+        <span class="footer-logo-mark" aria-hidden="true">T</span>
+        <span class="footer-logo-text">Tawana<span>.</span></span>
+      </a>
+
+      <p class="footer-description">
+        Empowering learners through quality education, practical
+        training, and the digital skills needed for a brighter future.
+      </p>
+
+      <a class="footer-cta" href="#courses">
+        Explore Our Courses
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <!-- Add official social links here when verified -->
+      <div class="footer-socials" aria-label="Social media links">
+        <!-- Example:
+        <a href="VERIFIED_URL"
+           aria-label="Tawana on Facebook"
+           target="_blank"
+           rel="noopener noreferrer">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        -->
+      </div>
+    </div>
+
+    <!-- Column 2: Quick navigation -->
+    <nav class="footer-column" aria-label="Footer navigation">
+      <h2 class="footer-heading">Quick Links</h2>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#news">News &amp; Updates</a></li>
+        <li><a href="#certificate">Certificates</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Column 3: Courses -->
+    <nav class="footer-column" aria-label="Our courses">
+      <h2 class="footer-heading">Our Courses</h2>
+      <ul class="footer-links">
+        <li><a href="#courses">Web Development</a></li>
+        <li><a href="#courses">Full Stack Development</a></li>
+        <li><a href="#courses">Cybersecurity</a></li>
+        <li><a href="#courses">Networking</a></li>
+        <li><a href="#courses">Programming</a></li>
+        <li><a href="#courses">Graphic Design</a></li>
+        <li><a href="#courses">Digital Marketing</a></li>
+        <li><a href="#courses">ICDL</a></li>
+      </ul>
+    </nav>
+
+    <!-- Column 4: Contact and newsletter -->
+    <div class="footer-column footer-contact">
+      <h2 class="footer-heading">Stay Connected</h2>
+
+      <p class="footer-small-text">
+        Have questions about our courses? We are here to help.
+      </p>
+
+      <!-- Uses the existing Contact section; no invented contact details -->
+      <a class="footer-contact-link" href="#contact">
+        <span class="footer-contact-icon" aria-hidden="true">✉</span>
+        Contact the Tawana Team
+      </a>
+
+      <h3 class="footer-newsletter-title">Learning Updates</h3>
+      <p class="footer-small-text">
+        Get course announcements and educational updates.
+      </p>
+
+      <!-- Front-end only until a real newsletter service is connected -->
+      <form class="footer-newsletter" id="footer-newsletter">
+        <label class="visually-hidden" for="footer-email">
+          Your email address
+        </label>
+
+        <input
+          type="email"
+          id="footer-email"
+          name="email"
+          placeholder="Enter your email"
+          autocomplete="email"
+          required
+          aria-describedby="footer-form-message"
+        />
+
+        <button type="submit" aria-label="Submit newsletter email">
+          <span aria-hidden="true">→</span>
+        </button>
+      </form>
+
+      <p
+        class="footer-form-message"
+        id="footer-form-message"
+        role="status"
+        aria-live="polite"
+      ></p>
+    </div>
+  </div>
+
+  <!-- Bottom copyright bar -->
+  <div class="footer-bottom">
+    <p>
+      &copy; <span data-current-year></span>
+      Tawana. All rights reserved.
+    </p>
+
+    <a class="footer-back-to-top" href="#home">
+      Back to top <span aria-hidden="true">↑</span>
+    </a>
+  </div>
+</footer>
+
+  </body>
+</html>

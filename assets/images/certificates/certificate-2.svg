@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sample Networking certificate</title>
+  <desc id="desc">A Tawana demonstration certificate, clearly marked as a sample.</desc>
+  <rect width="1200" height="800" fill="#f7faf8"/>
+  <rect x="28" y="28" width="1144" height="744" rx="12" fill="none" stroke="#078f47" stroke-width="8"/>
+  <rect x="48" y="48" width="1104" height="704" rx="8" fill="none" stroke="#b6d9c5" stroke-width="2"/>
+  <circle cx="600" cy="180" r="52" fill="#eaf8f1" stroke="#078f47" stroke-width="4"/>
+  <path d="M578 181l15 15 31-35" fill="none" stroke="#078f47" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="285" text-anchor="middle" fill="#078f47" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="5">TAWANA TECHNOLOGY</text>
+  <text x="600" y="360" text-anchor="middle" fill="#102033" font-family="Georgia,serif" font-size="48" font-weight="700">Certificate of Completion</text>
+  <text x="600" y="420" text-anchor="middle" fill="#68798d" font-family="Arial,sans-serif" font-size="24">This sample certificate represents completion of</text>
+  <text x="600" y="480" text-anchor="middle" fill="#102033" font-family="Arial,sans-serif" font-size="38" font-weight="700">Networking</text>
+  <path d="M430 565h340" stroke="#b6d9c5" stroke-width="2"/>
+  <text x="600" y="608" text-anchor="middle" fill="#68798d" font-family="Arial,sans-serif" font-size="20">DEMO PREVIEW - NOT AN OFFICIAL CREDENTIAL</text>
+  <text x="600" y="705" text-anchor="middle" fill="#cfe8d8" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="12">SAMPLE</text>
+</svg>
